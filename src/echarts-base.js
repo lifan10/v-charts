@@ -4,12 +4,12 @@ import 'echarts/lib/component/legend'
 
 echarts.registerTheme('ve-chart', {
   categoryAxis: {
-    axisLine: { show: false },
+    axisLine: { show: true },
     axisTick: { show: false },
     splitLine: { show: false }
   },
   valueAxis: {
-    axisLine: { show: false }
+    axisLine: { show: true }
   },
   line: {
     smooth: true
